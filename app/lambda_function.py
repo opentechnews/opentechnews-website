@@ -33,6 +33,8 @@ def process_articles(feed):
 </head>
 <body>
     <!-- Floating button --> 
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-2f74152d-a39e-4841-bc40-d968690b9dea" data-elfsight-app-lazy></div>
 
     <div class="container">
         <h1 class="mb-4">Open Tech News</h1>
