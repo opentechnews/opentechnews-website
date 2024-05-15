@@ -41,7 +41,7 @@ def process_articles(feed):
         
     <div class="container container-custom">
         <h1 class="bottom-left">Open Tech News</h1>
-        <a href="https://store.opentech.news" class="bottom-right">Store</a>
+        <a href="https://store.opentech.news/" class="bottom-right">Store</a>
     </div>
         
 
