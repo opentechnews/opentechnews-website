@@ -1,0 +1,19 @@
+.container-custom {
+    height: 70px; /* Adjust height as needed */
+    position: relative;
+}
+.bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: .5rem;
+}
+
+a.bottom-right  {
+    text-decoration: none;
+}

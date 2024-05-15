@@ -21,3 +21,6 @@ git config --global user.name "opentechnews"
 git config --global user.email "services@opentech.news"
 ```
 
+## Discourse Forum
+
+- Domain Name: Community.OpenTech.News

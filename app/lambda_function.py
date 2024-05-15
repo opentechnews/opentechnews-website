@@ -12,6 +12,7 @@ logger.setLevel(logging.INFO)
 # Feed URL: "Open source technology"
 feed_url = "https://www.google.com/alerts/feeds/07480943305324684294/8607219941662562161"
 
+
 s3 = boto3.client('s3')
 
 def fetch_feed(url):
@@ -37,8 +38,13 @@ def process_articles(feed):
     <div class="elfsight-app-2f74152d-a39e-4841-bc40-d968690b9dea" data-elfsight-app-lazy></div>
 
     <div class="container">
-        <h1 class="mb-4">Open Tech News</h1>
-    
+        
+    <div class="container container-custom">
+        <h1 class="bottom-left">Open Tech News</h1>
+        <a href="https://store.opentech.news" class="bottom-right">Store</a>
+    </div>
+        
+
     <div class="list-group">
     
     '''
